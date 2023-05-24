@@ -2,9 +2,12 @@
   "name": "@credolabs/react-scripts",
   "version": "5.0.1",
   "description": "Configuration and scripts for Create React App.",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/credolabs/create-react-app.git",
     "directory": "packages/react-scripts"
   },
   "license": "MIT",
@@ -12,7 +15,7 @@
     "node": ">=14.0.0"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/credolabs/create-react-app/issues"
   },
   "files": [
     "bin",
